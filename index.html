@@ -3,34 +3,171 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebProject-RAMOS</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Jerome | My Little World</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <nav>
-        <h3>Jerome</h3>
+    <header>
+        <div class="logo">Jerome</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#favorites">Favorites</a>
+            <a href="#interests">Interests</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-        <div class="nav-links">
-            <a href="#">About</a>
-            <a href="#">Projects</a>
-            <a href="#">Experiences</a>
-            <a href="#">Skills</a>
-        </div>
-    </nav>
+    <main>
 
-    <section class="hero">
-        <img src="hirono.jpg" alt="Hirono" class="profile-picture">
+        <section id="hero">
+            <h1>Hi, I'm Jerome!</h1>
+            <p class="tagline">A little piece of my blue world.</p>
+        </section>
 
-        <h1>Hey, I'm Jerome!</h1>
-        <h2>3rd Year Computer Science Student</h2>
+        <div class="horizon"></div>
 
-        <p>
-            I enjoy combining technology, design, and creativity
-            to create meaningful digital experiences.
-        </p>
-    </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+            I'm a 3rd year Computer Science student at Tarlac State University 
+            who enjoys exploring technology, discovering new things, and getting creative. 
+            When I'm not studying, you'll probably find me watching movies and series, 
+            playing games, listening to music, or working on something creative.
+            </p>
+
+            <ul class="fact-list">
+                <li>Age - 20</li>
+                <li>Zodiac - Aquarius</li>
+                <li>MBTI - INFJ</li>
+            </ul>
+        </section>
+
+        <div class="horizon"></div>
+
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <ul class="hobbies-list">
+                <li>Watching Movies & Series</li>
+                <li>Creative Activities</li>
+                <li>Gaming</li>
+                <li>Listening to Music</li>
+                <li>Photography</li>
+                <li>Exploring Technology</li>
+            </ul>
+        </section>
+
+        <div class="horizon"></div>
+
+        <section id="favorites">
+            <h2>Favorites</h2>
+            <div class="favorites-grid">
+
+                <article class="favorites-card">
+                    <img src="images/movies.jpg" alt="Movies and series" class="card-img">
+                    <h3>Movies & Series</h3>
+                    <p>Summer Strike is one of my favorite series. 
+                    I like its peaceful story, cozy atmosphere, 
+                    and the way it focuses on slowing down and enjoying life.</p>
+                </article>
+
+                <article class="favorites-card">
+                    <img src="images/music.jpg" alt="wave to earth" class="card-img">
+                    <h3>Music</h3>
+                    <p>Wave to Earth is one of my favorite artists. 
+                    I enjoy their calm and dreamy sound, 
+                    especially when I want to relax or enjoy a peaceful moment.</p>
+                </article>
+
+                <article class="favorites-card">
+                    <img src="images/color.jpg" alt="Sky blue" class="card-img">
+                    <h3>Color</h3>
+                    <p>Sky blue is my favorite color. 
+                    I love its soft and peaceful look 
+                    because it reminds me of clear skies and calm days.</p>
+                </article>
+
+                <article class="favorites-card">
+                    <img src="images/games.jpg" alt="Roblox" class="card-img">
+                    <h3>Games</h3>
+                    <p>Roblox is one of my favorite games to play during my free time. 
+                    I enjoy exploring different games and 
+                    trying out the many experiences available on the platform.</p>
+                </article>
+
+                <article class="favorites-card">
+                    <img src="images/food.jpg" alt="Ice cream" class="card-img">
+                    <h3>Ice Cream</h3>
+                    <p>Ice cream is one of my favorite treats. 
+                    I enjoy its sweet and refreshing taste, 
+                    especially when I want something simple and comforting.</p>
+                </article>
+
+                <article class="favorites-card">
+                    <img src="images/vibes.jpg" alt="Ocean vibes" class="card-img">
+                    <h3>Vibes</h3>
+                    <p>I love ocean vibes because they feel calm, peaceful, and refreshing. 
+                    I like the relaxing atmosphere of the sea, waves, and open blue skies.</p>
+                </article>
+
+            </div>
+        </section>
+
+        <div class="horizon"></div>
+
+        <section id="interests">
+            <h2>Interests</h2>
+            <div class="interests-grid">
+
+                <article class="interests-card small-card">
+                    <img src="images/uiux.jpg" alt="UI/UX Designer" class="card-img">
+                    <h3>UI/UX Designer</h3>
+                </article>
+
+                <article class="interests-card small-card">
+                    <img src="images/webdesign.jpg" alt="Web Designer" class="card-img">
+                    <h3>Web Designer</h3>
+                </article>
+
+                <article class="interests-card small-card">
+                    <img src="images/frontend.jpg" alt="Front-End Developer" class="card-img">
+                    <h3>Front-End Developer</h3>
+                </article>
+
+                <article class="interests-card small-card">
+                    <img src="images/webdev.jpg" alt="Web Developer" class="card-img">
+                    <h3>Web Developer</h3>
+                </article>
+
+                <article class="interests-card small-card">
+                    <img src="images/graphic.jpg" alt="Graphic Designer" class="card-img">
+                    <h3>Graphic Designer</h3>
+                </article>
+
+                <article class="interests-card small-card">
+                    <img src="images/software.jpg" alt="Software Developer" class="card-img">
+                    <h3>Software Developer</h3>
+                </article>
+
+            </div>
+        </section>
+
+        <div class="horizon"></div>
+
+        <section id="contact">
+            <h2>Stay Connected</h2>
+            <p>Thanks for stopping by and exploring my little corner of the web.</p>
+            <a class="contact-btn" href="mailto:example@gmail.com">Get in Touch</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Jerome | My Little World. Built with HTML + CSS.</p>
+    </footer>
 
 </body>
 </html>
